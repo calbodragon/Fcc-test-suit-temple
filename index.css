@@ -1,0 +1,138 @@
+
+  body {
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  #page-wrapper {
+    position: relative;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    color: rgb(70, 42, 230);
+    text-decoration: none;
+  }
+  
+  /** global classes styling **/
+  .container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+ 
+  .btn {
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 3px black solid;
+    border-radius: 2px;
+    background: rgb(94, 94, 238);
+    cursor: pointer;
+  }
+  
+  .grid {
+    display: flex;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:white;
+    z-index: auto;
+  }
+ 
+  @media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
+  
+  .logo {
+    width: 60vw;
+  }
+  
+  @media (max-width: 650px) {
+    .logo {
+      margin-top: 15px;
+      width: 100%;
+      position: relative;
+    }
+  }
+  
+  .logo > img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+  }
+  
+  @media (max-width: 650px) {
+    .logo > img {
+      margin: 0 auto;
+    }
+  }
+  
+  .nav-link {
+    font-weight: 400;
+  }
+  
+  @media (max-width: 650px) {
+    .nav-bar {
+      margin-top: 10px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0 50px;
+    }
+    .nav-bar li {
+      padding-bottom: 5px;
+    }
+  }
+  
+  .nav-bar > ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  @media (max-width: 650px) {
+    .nav-bar > ul {
+      flex-direction:column;
+    }
+  }
+  
+  .w {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /*/------------- */
+
+  
