@@ -1,27 +1,34 @@
 
+  * {
+    margin: 0;
+    padding: 0;
+    
+  }
+  #page-wrapper {
+    position: relative;
+
+  }
   body {
     background-color: white;
     font-family: 'Lato', sans-serif;
   }
   
-  #page-wrapper {
-    position: relative;
-  }
-  
   li {
-    list-style: none;
+    list-style: ;
   }
   
   a {
     color: rgb(70, 42, 230);
     text-decoration: none;
+    padding: 10px
   }
   
-  /** global classes styling **/
+  /** global classes styling */
   .container {
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
+    padding: 10px
   }
  
   .btn {
@@ -41,7 +48,7 @@
   }
   
   header {
-    position: fixed;
+    position:fixed;
     top: 0;
     min-height: 75px;
     padding: 0px 20px;
@@ -96,29 +103,37 @@
       margin-top: 10px;
       width: 100%;
       display: flex;
-      flex-direction: column;
+      flex-direction: flex;
       align-items: center;
       text-align: center;
-      padding: 0 50px;
+      padding: 0 50px ; 
     }
     .nav-bar li {
       padding-bottom: 5px;
     }
   }
-  
-  .nav-bar > ul {
+  .nav-bar{
+    padding: 10px 13px 10px 13px;
+  }
+  .nav-bar > ul   {
     width: 35vw;
     display: flex;
-    flex-direction: row;
+    padding: 13px 20px 13px 20px; 
     justify-content: space-around;
   }
   
   @media (max-width: 650px) {
     .nav-bar > ul {
-      flex-direction:column;
+      flex-direction:;
     }
   }
-  
+   @media (max-width:650px){
+     #video {
+       width: 480px;
+       height:300px;
+       
+     }
+   }
   .w {
     display: flex;
     flex-direction: column;
@@ -128,11 +143,7 @@
     height: 200px;
     margin-top: 50px;
   }
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  /*/------------- */
+
+  
 
   
